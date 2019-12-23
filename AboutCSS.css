@@ -1,0 +1,171 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+
+
+body{
+	margin: 0;
+	height: 100%;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	flex-direction: column;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: relative;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+}
+
+header{
+	box-sizing: border-box;
+	position: relative;
+	width: 1360px;
+	height:50px;
+    
+}.glav a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}.val a{
+	color: black;
+}
+
+#header2{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+
+	
+}
+#header2 div{
+	height: 20px;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-right: 40px;
+	color: black;
+	
+}
+
+
+
+
+footer{
+	position: relative;
+	width: 1360px;
+	height: 300px;
+	z-index: 2;
+	
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+   padding: 23px;
+  height: 200px;
+  width: 291px;
+
+}
+
+
+#help {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	border-right: 1px solid gray;
+
+}#help a{
+	text-decoration: none;
+}
+
+
+
+
+.mess{
+	border-right: 1px solid gray;
+}
+.mess img{
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+}
+
+
+
+
+
+#main{
+	display: flex;
+	flex-direction: column;
+	width: 1360px;
+	height: 1000px;
+	position: relative;	
+
+	
+}
+.cata div{
+	 text-align: center;
+	 height: 50px;
+
+
+}
+.cata div:hover{
+	color: black;
+	background-color:  rgb(240, 240, 228); 
+}
+
+
+.cata{
+	margin-top: 50px;
+	width: 100%;
+	height: 100px;
+		background-color:  rgb(230, 230, 190);
+	margin-left: 10px;
+	 display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+
+
+
+
+
+
+#info{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-left: 60px;
+	width:70%;
+
+}
+
+#f{
+	display: none;
+}
+#s{
+	display: none;
+
+}
+#t{
+	display: none;
+}
+#ff{
+	display: none;
+}
+#fff{
+	display: none;
+}
